@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #wrapper {
+            display: flex;
+            justify-content: center;
+        }
+        
+        #container {
+            display: flex;
+            justify-content: space-between;
+            width: 1440px;
+        }
+        
+        #center {
+            width: 910px;
+            background-color: bisque;
+        }
+        
+        #right {
+            width: 440px;
+            background-color: aqua;
+        }
+        
+        #left {
+            width: 90px;
+            height: 870px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        
+        #left_above {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        #below {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .item {
+            width: 32px;
+            margin-top: 50px;
+        }
+        
+        #setting {
+            margin-top: 36px;
+        }
+    </style>
+    <link rel="stylesheet" href="bai.css">
+    <link rel="stylesheet" href="/fontawesome-free-6.3.0-web/css/all.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="container">
+            <div id="left">
+                <div id="left_above">
+                    <img class="item" src="logo.png" alt="">
+                    <img class="item" src="home.png" alt="">
+                    <img class="item" src="cam.png" alt="">
+                    <img class="item" src="chatting.png" alt="">
+                    <img class="item" src="user.png" alt="">
+                </div>
+
+                <div id="below">
+                    <img src="avatar.png" width="44" alt="">
+                    <img id="setting" src="setting.png" width="44" alt="">
+                </div>
+            </div>
+            <div id="center">
+                <div class="head">
+                    <h2>Meeting title</h2>
+                    <div class="record">
+                        <i class="icon fa-sharp fa-solid fa-circle"></i> 12:00
+                    </div>
+                </div>
+                <div class="calendar">
+                    <div class="internal">
+                        <i class="user-icon fa-solid fa-user"></i>
+                        <div class="txt">Internal</div>
+                    </div>
+                    <div class="calendar-meeting">
+                        <img src="/calender_small.png" alt="" class="icon-cal">
+                        <div class="txt-calendar">Sep 02, 2022</div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="time">08:00 - 09:00 AM</div>
+                </div>
+                <div class="video">
+                    <div class="head-video">
+                        <div class="onl">
+                            <i class="icon-onl fa-sharp fa-solid fa-circle"></i> Benjamin Crawford
+                        </div>
+                        <div class="record-video"><img src="/mic_color.png" alt=""></div>
+                    </div>
+                    <img src="/img_big.png" alt="" class="main-img">
+                </div>
+                <div class="video-small">
+                    <div class="video-1">
+                        <div class="onl-video-1">
+                            <i class="icon-onl fa-sharp fa-solid fa-circle"></i>Christian Scott
+                            <img src="/mic1.png" alt="" class="mic">
+                        </div>
+                        <img src="/img.png" alt="">
+                    </div>
+
+                    <div class="video-1">
+                        <div class="onl-video-1">
+                            <i class="icon-onl fa-sharp fa-solid fa-circle"></i>Deborah Chu
+                            <img src="/mic2.png" alt="" class="mic">
+                        </div>
+                        <img src="/img1.png" alt="">
+                    </div>
+                    <div class="video-1">
+                        <div class="onl-video-1">
+                            <i class="icon-onl fa-sharp fa-solid fa-circle"></i>Jordan Nieves
+                            <img src="/mic1.png" alt="" class="mic">
+                        </div>
+                        <img src="/img2.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div id="right">right</div>
+
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>

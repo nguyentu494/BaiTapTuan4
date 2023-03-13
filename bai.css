@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.record {
+    width: 91px;
+    border: 1px solid red;
+    padding: 8px 12px;
+    border-radius: 50px;
+    color: red;
+}
+
+.icon {
+    font-size: 10px;
+    margin-right: 12px;
+    margin-bottom: 5px;
+}
+
+.calendar {
+    display: flex;
+    margin-top: 35px;
+    align-items: center;
+}
+
+.line {
+    border: 1px solid rgb(190, 189, 189);
+    height: 15px;
+}
+
+.internal {
+    border: 1px solid rgb(230, 64, 92);
+    border-radius: 50px;
+    background-color: rgb(230, 64, 92);
+    color: white;
+    font-size: 12px;
+    padding: 4px 6px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.user-icon {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    padding: 4px;
+    font-size: 10px;
+    color: rgb(221, 55, 83);
+    margin-right: 5px;
+}
+
+.calendar-meeting {
+    margin-left: 8px;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 12px;
+}
+
+.icon-cal {
+    width: 15px;
+    height: 15px;
+}
+
+.txt-calendar {
+    padding: 0px 12px;
+}
+
+.time {
+    padding-left: 18px;
+}
+
+.video {
+    position: relative;
+    margin-top: 38px;
+}
+
+.onl {
+    position: absolute;
+    background-color: rgba(56, 55, 55, 0.4);
+    color: white;
+    padding: 11px 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    margin: 17px 15px;
+}
+
+.icon-onl {
+    color: rgb(80, 228, 61);
+    font-size: 8px;
+    margin-right: 10px;
+}
+
+.record-video {
+    position: absolute;
+    right: 0;
+    margin: 17px 15px;
+    width: 35px;
+    height: 35px;
+}
+
+.main-img {
+    width: 100%;
+    height: 460px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.video-small {
+    display: flex;
+    justify-content: space-between;
+}
+
+.video-1 {
+    position: relative;
+}
+
+.onl-video-1 {
+    position: absolute;
+}
+
+.mic {
+    position: absolute;
+    right: 0px;
+}
